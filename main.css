@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: url(img.jpg) no-repeat center center/ cover;
+
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 10px;
+    gap: 20px;
+    width: 50vw;
+}
+.container {
+    padding: 20PX 10PX;
+}
+.container,.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    gap: 15px;
+    width: 100%;
+    border-radius: 10PX;
+}
+.container input {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15PX 8PX;
+    font-size: 1.2rem;
+}
+
+.container button {
+    background-color: #ffd43b;
+    padding: 7PX 30PX;
+    font-size: 1.3rem;
+}
+
+.list ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.list ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5PX 20px;
+    border-bottom: 1px solid black;
+
+}
+.task {
+    width: 75%;
+
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    width: 20%;
+}
+.buttons button {
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 0px;
+}
+.line-through {
+    text-decoration: line-through;
+}
